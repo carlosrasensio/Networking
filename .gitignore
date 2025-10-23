@@ -1,8 +1,71 @@
-.DS_Store
+# ===========================================
+# Swift / Xcode / Swift Package Manager
+# ===========================================
+
+# Build artifacts
+build/
+DerivedData/
+.swiftpm/
+.build/
+
+# Xcode user data and workspace settings
+*.xcuserstate
+xcuserdata/
+xcshareddata/
+*.xcworkspace
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+/.swiftpm
 /.build
 /Packages
-xcuserdata/
-DerivedData/
-.swiftpm/configuration/registries.json
-.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
-.netrc
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Spotlight
+.Spotlight-V100
+.Trashes
+
+# Temporary files
+*.swp
+*~
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# Logs
+*.log
+
+# IDE-specific
+.idea/
+.vscode/
+*.xcuserdatad
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# Carthage / CocoaPods
+Carthage/Build
+Pods/
+
+# Simulator logs
+*/CoreSimulator/*
+*.xcdevice
+
+# Package Manager metadata
+Package.resolved
+
+# ===========================================
+# End of .gitignore
+# ===========================================
